@@ -1,0 +1,42 @@
+# === ROS 2 Build Artifacts ===
+build/
+install/
+log/
+
+# === Colcon-related ===
+.colcon/
+*.pyc
+__pycache__/
+*.log
+
+# === Python virtual envs ===
+venv/
+env/
+.venv/
+
+# === VSCode Settings ===
+.vscode/
+*.code-workspace
+
+# === CMake temporary files ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# === Backup / temp files ===
+*~
+*.swp
+*.bak
+
+# === Markdown build artifacts (optional) ===
+MSG_DOC.md
+compiled.md
+
+# === MacOS / Windows ===
+.DS_Store
+Thumbs.db
+
+# === Misc ===
+*.egg-info/
+dist/
