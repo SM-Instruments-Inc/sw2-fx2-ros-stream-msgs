@@ -1,25 +1,32 @@
 # FX Stream Message for ROS 2
 
-Custom ROS 2 message definitions for BATCAM FX.
+Custom ROS 2 message definitions for the BATCAM FX system.
+
+To build this package, make sure all Python dependencies are installed:
+
+```bash
+pip install -r requirements.txt
+```
+
+Built and tested with Python 3.10.16 / ROS 2 Jazzy (Ubuntu 24.04 or later)
+Target compatibility: ROS 2 Humble (Ubuntu 22.04 or equivalent)
 
 # Message Types
 
-# 📄 Message Documentation
-
-## `LevelTrigger.msg`
+## LevelTrigger.msg
 
 | Type | Name |
 |------|------|
 | `float64` | `decibel` |
 
-## `WsAudio.msg`
+## WsAudio.msg
 
 | Type | Name |
 |------|------|
 | `float64` | `gain` |
 | `float32[]` | `ws` |
 
-## `LPointAudio.msg`
+## LPointAudio.msg
 
 | Type | Name |
 |------|------|
@@ -28,7 +35,7 @@ Custom ROS 2 message definitions for BATCAM FX.
 | `float32[]` | `lpoint1` |
 | `float32[]` | `lpoint2` |
 
-## `Beamforming.msg`
+## Beamforming.msg
 
 | Type | Name |
 |------|------|
