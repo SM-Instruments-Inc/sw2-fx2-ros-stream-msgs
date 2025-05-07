@@ -15,6 +15,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Beamforming.msg"
   "msg/WsAudio.msg"
   "msg/LevelTrigger.msg"
+  "msg/Prpd.msg"
   DEPENDENCIES builtin_interfaces
 )
 
