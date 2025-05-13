@@ -1,4 +1,4 @@
-float32 noise
-float32 corona
-float32 floating
-float32 surface
+float32[3] noise
+float32[3] corona
+float32[3] floating
+float32[3] surface
