@@ -8,43 +8,43 @@
 
 ## `WsAudio.msg`
 
-| Type        | Name   |
-| ----------- | ------ |
-| `float64`   | `gain` |
-| `float32[]` | `ws`   |
+| Type            | Name   |
+| --------------- | ------ |
+| `float64`       | `gain` |
+| `float32[8000]` | `ws`   |
 
 ## `LPointAudio.msg`
 
-| Type        | Name      |
-| ----------- | --------- |
-| `float64`   | `gain`    |
-| `float32[]` | `lpoint0` |
-| `float32[]` | `lpoint1` |
-| `float32[]` | `lpoint2` |
+| Type            | Name      |
+| --------------- | --------- |
+| `float64`       | `gain`    |
+| `float32[8000]` | `lpoint0` |
+| `float32[8000]` | `lpoint1` |
+| `float32[8000]` | `lpoint2` |
 
 ## `Beamforming.msg`
 
-| Type        | Name     |
-| ----------- | -------- |
-| `float64`   | `gain`   |
-| `float64[]` | `bf`     |
-| `float64[]` | `level`  |
-| `int32[]`   | `param1` |
-| `int32[]`   | `param2` |
-| `int32[]`   | `theta`  |
-| `int32[]`   | `posX`   |
-| `int32[]`   | `posY`   |
-| `int32[]`   | `vPosX`  |
-| `int32[]`   | `vPosY`  |
+| Type            | Name     |
+| --------------- | -------- |
+| `float64`       | `gain`   |
+| `float64[1200]` | `bf`     |
+| `float64[5]`    | `level`  |
+| `int32[5]`      | `param1` |
+| `int32[5]`      | `param2` |
+| `int32[5]`      | `theta`  |
+| `int32[5]`      | `posX`   |
+| `int32[5]`      | `posY`   |
+| `int32[5]`      | `vPosX`  |
+| `int32[5]`      | `vPosY`  |
 
 ## `Prpd.msg`
 
-| Type        | Name       |
-| ----------- | ---------- |
-| `float32[]` | `noise`    |
-| `float32[]` | `corona`   |
-| `float32[]` | `floating` |
-| `float32[]` | `surface`  |
+| Type         | Name       |
+| ------------ | ---------- |
+| `float32[3]` | `noise`    |
+| `float32[3]` | `corona`   |
+| `float32[3]` | `floating` |
+| `float32[3]` | `surface`  |
 
 ## `BeamformingSetting.msg`
 
