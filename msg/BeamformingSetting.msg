@@ -1,0 +1,10 @@
+bool autogain
+float64 gain
+float64 x_cal
+float64 y_cal
+float64 distance
+float64 high_cut
+float64 low_cut
+int32 l_point_0
+int32 l_point_1
+int32 l_point_2
