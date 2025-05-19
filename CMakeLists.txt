@@ -13,6 +13,8 @@ find_package(builtin_interfaces REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LPointAudio.msg"
   "msg/Beamforming.msg"
+  "msg/BeamformingSetting.msg"
+  "msg/OverlaySetting.msg"
   "msg/WsAudio.msg"
   "msg/LevelTrigger.msg"
   "msg/Prpd.msg"
