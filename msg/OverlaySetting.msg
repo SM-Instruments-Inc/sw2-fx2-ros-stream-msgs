@@ -1,6 +1,6 @@
-bool enable
-bool findsource
-int32 maxsource
+bool enable_overlay
+bool enable_source_mode
+int32 number_of_sources
 int32 average
-int32 threshold
-int32 range
+float64 threshold
+float64 range
