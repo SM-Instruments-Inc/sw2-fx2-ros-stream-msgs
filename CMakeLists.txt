@@ -11,6 +11,8 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "action/BeamformingSetting.action"
+  "action/OverlaySetting.action"
   "msg/LPointAudio.msg"
   "msg/Beamforming.msg"
   "msg/BeamformingSetting.msg"
