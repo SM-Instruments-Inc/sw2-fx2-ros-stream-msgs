@@ -2,8 +2,8 @@ import rclpy
 from rclpy.action import ActionClient
 from rclpy.node import Node
 
-from fx_stream_msgs.action import OverlaySetting
-from fx_stream_msgs.msg import OverlaySetting as OverlaySettingMsg
+from fx2_stream_msgs.action import OverlaySetting
+from fx2_stream_msgs.msg import OverlaySetting as OverlaySettingMsg
 
 
 class OverlayClient(Node):
