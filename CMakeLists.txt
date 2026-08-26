@@ -20,6 +20,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/WsAudio.msg"
   "msg/LevelTrigger.msg"
   "msg/Prpd.msg"
+  "msg/PrpdSource.msg"
+  "msg/PrpdDetection.msg"
+  "msg/LeakSource.msg"
+  "msg/LeakDetection.msg"
   DEPENDENCIES builtin_interfaces
 )
 
