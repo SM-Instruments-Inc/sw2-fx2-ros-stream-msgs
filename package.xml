@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>fx2_stream_msgs</name>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <description>Custom Messages for BATCAM FX2</description>
   <maintainer email="jaeho@smins.co.kr">Jaeho Kim</maintainer>
   <license>MIT License</license>
