@@ -5,7 +5,7 @@
 | Type | Name |
 |------|------|
 | `float64` | `gain` |
-| `float64[1200]` | `bf` |
+| `float64[1144]` | `bf` |
 | `float64[5]` | `level` |
 | `int32[5]` | `param1` |
 | `int32[5]` | `param2` |
