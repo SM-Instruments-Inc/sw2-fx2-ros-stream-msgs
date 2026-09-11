@@ -1,10 +1,10 @@
-# PRPD(Partial Discharge) point (from PRPD AI)
+# PD(Partial Discharge) point (from PD AI)
 
 # normalized position, 0.0 ~ 1.0 (x: left -> right, y: top -> bottom)
 float32 nx
 float32 ny
 
-# per-class score, 0.0 ~ 1.0, ordered by PrpdDetection LABEL_* constants
+# per-class score, 0.0 ~ 1.0, ordered by PdDetection LABEL_* constants
 # [noise, corona, floating, surface], empty if not provided
 float32[<=4] scores
 

@@ -86,16 +86,7 @@
 | `float64` | `threshold` |
 | `float64` | `range` |
 
-## `Prpd.msg`
-
-| Type | Name |
-|------|------|
-| `float32[3]` | `noise` |
-| `float32[3]` | `corona` |
-| `float32[3]` | `floating` |
-| `float32[3]` | `surface` |
-
-## `PrpdDetection.msg`
+## `PdDetection.msg`
 
 | Type | Constant | Value |
 |------|----------|-------|
@@ -114,9 +105,9 @@
 | `uint8` | `label` |
 | `bool` | `has_confidence` |
 | `float32` | `confidence` |
-| `PrpdSource[]` | `sources` |
+| `PdSource[]` | `sources` |
 
-## `PrpdSource.msg`
+## `PdSource.msg`
 
 | Type | Name |
 |------|------|
@@ -125,6 +116,15 @@
 | `float32[<=4]` | `scores` |
 | `bool` | `has_level` |
 | `float32` | `level` |
+
+## `Prpd.msg`
+
+| Type | Name |
+|------|------|
+| `float32[3]` | `noise` |
+| `float32[3]` | `corona` |
+| `float32[3]` | `floating` |
+| `float32[3]` | `surface` |
 
 ## `WsAudio.msg`
 
