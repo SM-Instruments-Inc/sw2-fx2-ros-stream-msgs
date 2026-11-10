@@ -1,5 +1,14 @@
 # BATCAM FX2 Stream Message for ROS 2
 
+> **This repository is no longer updated and will be archived.**
+>
+> BATCAM FX2 firmware **v1.1.1 and later** uses `fx2_stream_msgs` 2.0.0 from
+> <https://gitlab.com/smins-oss/sound-camera/framework/protocol/fx-stream-msgs>.
+>
+> This repository stays at 1.2.0, the version used by firmware v1.1.0 and earlier.
+> The two versions are not wire compatible, so build the version that matches
+> the firmware on your device.
+
 Custom ROS 2 message definitions for the BATCAM FX system.
 
 To build this package, make sure all Python dependencies are installed:
